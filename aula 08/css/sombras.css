@@ -1,0 +1,9 @@
+div{
+    border: 1px solid slateblue;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    /* trabalha sobre configurações de ponto de luz (spot) */
+    /* X, Y, AFASTAMENTO, INTENSIDADE, COR */
+    box-shadow: 0 0 10px 0.5px cyan;
+}

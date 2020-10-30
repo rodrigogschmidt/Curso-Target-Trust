@@ -1,0 +1,29 @@
+@media screen and (max-width: 1400px) {
+   #menu {
+       display: none;
+   }
+   
+   .container {
+       width: 100%;
+   }
+   h1 {
+       font-size: 28px;
+       animation: none;
+   }
+   p {
+       font-size: 14px;
+   }
+   section {
+       width: 100%;
+   }
+   .polaroid {
+       width: 41%;
+   }
+   aside {
+       width: 100% !important;
+       margin: 0 !important;
+   }
+   #burger {
+        display: block;
+   }
+}

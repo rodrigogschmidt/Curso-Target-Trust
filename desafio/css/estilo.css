@@ -1,0 +1,18 @@
+:root{
+    --vermelho: #ff4a44;
+    --azul: 	#0000CD;
+}
+.quadrado{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 150px 635px;
+}
+div div{
+    border: 1px solid var(--azul);
+    margin: 0 auto;
+    padding: 100px 100px;
+    display:inline-block;
+}
+div div:hover{
+    background: var(--vermelho);
+}

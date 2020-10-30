@@ -1,0 +1,22 @@
+div{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+#div-1:hover{
+    background: red;
+    border-radius: 50%;
+    margin-left: 100px;
+    /* transitions servem para "monitorar/escutar" a alteração de alguma outra prop. CSS */
+    /* precisamos da vírgula para monitorar as diferentes propriedades dentro no transitions */
+    transition: border-radius 2s, background 4s, margin-left 4s;
+    /* transition: all Xs (TODAS as propriedades receberão a transformação no tempo estipulado */
+    /* transition é uma ação que monitora as propriedades, já transform é uma propriedade */
+}
+#div-2{
+    transition: transform 3s;
+}
+#div-2:hover{
+    transform: rotate(45deg);
+}

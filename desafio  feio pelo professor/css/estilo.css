@@ -1,0 +1,17 @@
+.quadrado{
+    border: 1px solid red;
+    width: 310px;
+    height:310px;
+    margin: 0 auto;
+}
+.quadrado div{
+    border: 1px solid blue;
+    width: 98px;
+    height: 98px;
+    display: inline-block;
+}
+.quadrado div:hover{
+    /* background: red; */
+    background: url(../img/usuario.png);
+    background-size: 100%;
+}

@@ -1,0 +1,43 @@
+
+body{
+    background: url(../img/tijolos.jpg);
+}
+div{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    /* margin: 0 auto 0 auto centralizaria a imagem, porém o comando abaixo faz automaticamente
+    centraliza qualquer elemento que seja do tipo bloco e que possua uma largura */
+    margin: 10 auto;
+}
+#um{
+    /* TRES pares de valores são digitados (#RRGGBB) para selecionarmos as cores (RGB)
+    0=> desligado (preto) vai subindo até o 9 e depois da letra A até a F (mais clara) */
+    
+    background: #61BA65;
+}
+#dois{
+    /* tres valores que vão de 0 até 255 (escuro => até mais claro) */
+    background: rgb(255, 0, 0);
+}
+#tres{
+    background: rgba(255, 255, 0, 0.6);
+}
+/* pseudo propriedades em CSS */
+div:hover{
+    border: 3px dotted blue;
+}
+#um span:first-child{
+    color: red;
+}
+#um span:last-child{
+    color: orange
+}
+#um span:nth-child(2){
+    color:#0066CC
+}
+#dois span:nth-child(odd){
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ffffff;
+}

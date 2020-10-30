@@ -1,0 +1,98 @@
+/* Definição de fonte custumizada */
+@font-face{
+    font-family: Poppins;
+    src:url(../fonts/Poppins-Regular.ttf) format("truetype");
+}
+:root{
+    /* conceito de variáveis em CSS abaixo */
+    --azul-medio: #24263B;
+    --azul-escuro:#1F2235;
+    --cor-menu-hover: #FF4A57;
+    --cor-menu: #FFFFFF
+}
+body{
+    background: var(--azul-medio);
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+header{
+    background: var(--azul-escuro);
+    padding: 30px 0;
+}
+header div{
+   /* border: 1px solid red;  */
+   width: 1170px;
+   margin: 0 auto; /*centraliza a div na tela*/
+   }
+
+/* ----------ESTRUTURA DO MENU---------- */
+#menu{
+    /* border: 1px solid white; */
+    float: right;
+}
+#menu a{
+    color: var(--cor-menu);
+    text-decoration: none;
+    padding: 11.2px 20px;
+    font-size: 18px;
+    display: inline-block;
+    transition: color 0.5s;
+}
+
+#menu a:hover{
+    color: var(--cor-menu-hover)
+}
+#menu a.ativo{
+    background: var(--cor-menu-hover);
+    color: var(--cor-menu);
+    box-shadow: 4px -2px 6px 6px #313444;
+}
+
+#burger {
+    /* border: 1px solid white; */
+    display: none;
+    width: 40px;
+    height: 32px;
+    padding: 8px 4px 0px 4px;
+    float: right;
+    margin-right: 10px;
+}
+#burger div{
+    width: 80%;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+/* active, assim como o hover, é uma pseudopropriedade (quando o usuario clica/ativa o link) */
+#burger:active div:nth-child(2){
+    width: 60%;
+}
+
+/* ==========configuração do conteúdo do site========== */
+.container{
+    /* border: 1px solid greenyellow; */
+    width: 1170px;
+    height: calc(100% - 105px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+section{
+    /* border: 1px solid red; */
+    width: 100%;
+    color: var(--cor-menu);
+
+}
+aside{
+    display: inline-block;
+    /* alinhar os elementos no topo */
+    vertical-align: top;
+}
+aside:first-child{
+    width: 660px;
+    margin-right: 100px;
+}
+aside:last-child{
+    width: 400px;
+}
