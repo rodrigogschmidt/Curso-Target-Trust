@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 900px) {
    #menu {
        display: none;
    }
@@ -17,7 +17,7 @@
        width: 100%;
    }
    .polaroid {
-       width: 41%;
+       width: 40%;
    }
    aside {
        width: 100% !important;
