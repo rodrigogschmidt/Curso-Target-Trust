@@ -45,7 +45,7 @@ h1{
 }
 .polaroid{
     width: 80%;
-    /* background: white; */
+    background: white;
     padding: 10px 10px 80px 10px;
     transform: rotate(10deg);
    
