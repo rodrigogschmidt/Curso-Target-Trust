@@ -1,0 +1,25 @@
+.retangulo {
+    border: 2px solid red;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+.circulo {
+    border: 1px solid purple;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+
+/* position absolute: libera o elemento para se posicionar
+em qualquer área da tela com limite no body */
+
+}
+#primeiro {
+    background: orange;
+}
+#segundo {
+    background: orchid;
+}

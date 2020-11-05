@@ -41,4 +41,7 @@
     .maquina-de-escrever {
     width: auto;
    }
+   iframe {
+       display: none;
+   }
 }

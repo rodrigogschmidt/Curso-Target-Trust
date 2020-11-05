@@ -13,6 +13,9 @@
     margin-right: 30px;
     transition: background 1s;
 }
+#redes-sociais a:last-child{
+    margin-right: 0;
+}
 #redes-sociais a:hover{
     background: var(--cor-menu-hover);
 }
