@@ -1,0 +1,20 @@
+#retangulo {
+    border: 3px dashed purple;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background: #999999;
+}
+section {
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.caixa {
+    border: 1px solid brown;
+    width: 50px;
+    height: 50px;
+    display: none;
+}

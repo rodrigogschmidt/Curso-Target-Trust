@@ -40,3 +40,6 @@ iframe {
     height: 290px;
     border-radius: 10px;
 }
+#erro {
+    float: left;
+}
